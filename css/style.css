@@ -10,7 +10,7 @@
   user-select: none;
   -webkit-touch-callout: none;
   cursor: default;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: rgb(150, 235, 250);
   }
 #feelsize {
   position: fixed;
@@ -18,7 +18,7 @@
   right:0; bottom:0;width: 100%; height: 100%;
 }
 body {
-  background: #222;
+  background: rgb(150, 235, 250);
   padding: 0; margin: 0;
 }
 #container {
@@ -46,7 +46,7 @@ body {
 h1,h2,h3 {
   text-align: center;
   font-family: 'molle';
-  color: #fff;
+  color: rgb(166, 33, 228);
   font-weight: normal;
   margin: 5% 0;
   white-space: nowrap;
@@ -71,7 +71,7 @@ h2#boardsize {
 }
 p {
   font-family: 'Josefin Sans', sans-serif;
-  color: #fff;
+  color: rgba(54, 95, 230, 0.548);
   text-align: center;
 }
 #titlegrid {
@@ -101,7 +101,8 @@ p {
 
 .board {
   padding: 10px 10px 20px 10px;
-  background: #222;
+  background: rgba(250, 219, 43, 0.541);
+  border-radius: 20px;
 }
   .board.hidden {
     opacity: 0;
@@ -132,13 +133,13 @@ p {
   transition: background-color .2s ease-out;
 }
 .tile .inner { 
-  background-color: #2a2a2a;
+  background-color: #60f73a7c;
 }
 
 .tile-1 .inner:after, .tile-2 .inner:after {
   content: ''; position: absolute;
   left: 0; bottom: 0; width: 100%; height: 12%;
-  background: rgba(0,0,0,.2);
+  background: rgba(221, 4, 4, 0.2);
 }
 .iconcon {
   display: inline-block;
@@ -312,7 +313,7 @@ html body .show01 .tile .inner:after {
   width: 100%;
   bottom: 17%;
   padding: 0 5%;
-  color: #fff;
+  color: rgb(240, 253, 48);
   font-family: 'Josefin Sans', sans-serif;
   height: 32px; font-size: 32px; line-height: 32px;
   opacity: 0;
